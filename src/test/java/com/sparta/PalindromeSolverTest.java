@@ -20,7 +20,7 @@ class PalindromeSolverTest {
     @Test
     @DisplayName("Given a String with multiple words, returns the longest Palindrome in the sentence over 3 characters")
     public void GivenAString_ReturnsLongestPalindrome(){
-        String sentence = "Hello Hannah would you like to go to the abba concert tonight? Also I need to repaper my house tomorrow";
+        String sentence = "abba Hannah would you like to go to the abba concert tonight? Also I need to repaper my house tomorrow";
         String expectedResult = "repaper";
         String result = SentenceSplitter.splitSentenceToWords(sentence);
         Assertions.assertEquals(expectedResult, result);
