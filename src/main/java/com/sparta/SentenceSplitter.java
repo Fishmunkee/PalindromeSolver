@@ -17,7 +17,7 @@ public class SentenceSplitter {
         if(!longestPalindrome.equals(" ")){
             return longestPalindrome;
         } else {
-            return "No Palindromes!";
+            return "No Palindromes here!";
         }
     }
 }
